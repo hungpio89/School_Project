@@ -1,6 +1,6 @@
 # School_Project
 
-In this Folder, i have:
+In this Folder, i mainly used Quartus as a compiler, which have:
 
 +) Experiment 1: This is Big-Project about constructing a processor to connect simple input (switches) and output devices (LEDs and 7-segment) to an Intel FPGA chip "DE10-Standard" and implement a circuit that uses these devices.
 (*) Using VerilogSystem HDLanguage
