@@ -1,0 +1,93 @@
+module wrapper_Final_Project
+#(
+	parameter integer width = 16,
+	parameter integer angle_bit = 32
+)
+(
+	input clk,
+	input rst,
+	input write_n,
+	input chipselect,
+	input [2:0] address,
+	input [width-1:0] writedata,
+	output [width-1:0] readdata
+);
+
+Final_Project FP
+(
+	input clk,
+	input rst,
+	input start,
+	input [31:0] angle,
+	output [width:0] cos,
+	output [width:0] sin,
+	output done
+);
+
+wire wr_en = 1'b0;
+wire rd_en = 1'b0;
+wire wr_start = 1'b0;
+wire wr_n = 1'b0;
+
+// --Reg n ----
+wire [31:0] n_reg = {angle_bit{1'b0}}; 
+
+//--Reg fn ----
+wire [width-1:0] f_cos_reg = {width{1'b0}}; 
+wire [width-1:0] f_sin_reg = {width{1'b0}};
+
+wire done_tick = 1'b0;
+wire set_done_tick = 1'b0;
+wire clr_done_tick = 1'b0;
+
+Final_Project arith
+(
+	.clk(clk),
+	.rst(rst),
+	.start(wr_start),
+	.angle(n_reg),
+	.cos(f_cos_reg),
+	.sin(f_sin_reg),
+	.done(set_done_tick)
+);
+
+	always @(posedge clk, posedge rst) begin
+		begin
+			if (rst) begin
+				n_reg <= {angle_bit{1'b0}};
+				done_tick <= 1'b0;
+			end
+			else if (wr_n == 1'b1) begin
+				n_reg <= writedata[angle_bit-1:0];
+			end	
+		end
+		begin
+			if (set_done_tick == 1'b1) begin
+				done_tick <= 1'b1;
+			end
+			else if (clr_done_tick == 1'b1) begin
+				done_tick <= 1'b0;
+			end	
+		end
+	end
+
+// --Write decoding logic----
+
+	always @(*) begin
+		assign wr_en = (write_n == 0 && chipselect == 1)?1:0;
+		assign wr_n = (address == 3'b000 && wr_en == 1)?1:0;
+		assign wr_start = (address == 3'b001 && wr_en == 1)?1:0;
+		assign clr_done_tick = (address == 3'b100 && wr_en == 1)?1:0;
+
+// --Read decoding logic---
+
+		assign rd_en = (write_n == 1 && chipselect == 1)?1:0;
+		case(address)
+			3'b000: begin if(rd_en == 1) readdata <= n_reg; end
+			3'b010: begin if(rd_en == 1) readdata <= f_cos_reg; end
+			3'b011: begin if(rd_en == 1) readdata <= f_sin_reg; end
+			3'b100: begin if(rd_en == 1) readdata[0] <= done_tick; readdata[width-1:1] <= {width-1{1'b0}}; end
+			default: readdata <= {width{1'b0}};
+		endcase
+	end
+endmodule

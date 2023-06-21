@@ -1,0 +1,57 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\HK222\VXL\Final_Project\system\unsaved.qsys --block-symbol-file --output-directory=E:\HK222\VXL\Final_Project\system\unsaved --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading system/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding trigonometric_0 [trigonometric 1.0]
+Progress: Parameterizing module trigonometric_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Warning: unsaved.jtag_uart_0: Interrupt sender jtag_uart_0.irq is not connected to an interrupt receiver
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\HK222\VXL\Final_Project\system\unsaved.qsys --synthesis=VERILOG --output-directory=E:\HK222\VXL\Final_Project\system\unsaved\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading system/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding trigonometric_0 [trigonometric 1.0]
+Progress: Parameterizing module trigonometric_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Warning: unsaved.jtag_uart_0: Interrupt sender jtag_uart_0.irq is not connected to an interrupt receiver
+Info: unsaved: Generating unsaved "unsaved" for QUARTUS_SYNTH
+Info: jtag_uart_0: Starting RTL generation for module 'unsaved_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec E:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I E:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I E:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I E:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I E:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I E:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- E:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=unsaved_jtag_uart_0 --dir=C:/Users/Admin/AppData/Local/Temp/alt9488_7856813392979968884.dir/0025_jtag_uart_0_gen/ --quartus_dir=E:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt9488_7856813392979968884.dir/0025_jtag_uart_0_gen//unsaved_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'unsaved_jtag_uart_0'
+Info: jtag_uart_0: "unsaved" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "unsaved" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'unsaved_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec E:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I E:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I E:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I E:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I E:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I E:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- E:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=unsaved_onchip_memory2_0 --dir=C:/Users/Admin/AppData/Local/Temp/alt9488_7856813392979968884.dir/0026_onchip_memory2_0_gen/ --quartus_dir=E:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt9488_7856813392979968884.dir/0026_onchip_memory2_0_gen//unsaved_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'unsaved_onchip_memory2_0'
+Info: onchip_memory2_0: "unsaved" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Error: Generation stopped, 6 or more modules remaining
+Info: unsaved: Done "unsaved" with 9 modules, 5 files
+Error: qsys-generate failed with exit code 1: 1 Error, 1 Warning
+Info: Stopping: Create HDL design files for synthesis

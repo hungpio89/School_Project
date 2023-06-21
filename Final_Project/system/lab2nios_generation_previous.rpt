@@ -1,0 +1,47 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\HK222\VXL\Final_Project\system\platform_design\qsys\lab2nios.qsys --block-symbol-file --output-directory=E:\HK222\VXL\Final_Project\system --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading qsys/lab2nios.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding trigonometric_0 [trigonometric 1.0]
+Warning: trigonometric_0: Component type trigonometric is not in the library
+Progress: Parameterizing module trigonometric_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: lab2nios.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Error: lab2nios.trigonometric_0: Component trigonometric 1.0 not found or could not be instantiated
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\HK222\VXL\Final_Project\system\platform_design\qsys\lab2nios.qsys --synthesis=VERILOG --output-directory=E:\HK222\VXL\Final_Project\system\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading qsys/lab2nios.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding trigonometric_0 [trigonometric 1.0]
+Warning: trigonometric_0: Component type trigonometric is not in the library
+Progress: Parameterizing module trigonometric_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: lab2nios.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Error: lab2nios.trigonometric_0: Component trigonometric 1.0 not found or could not be instantiated
+Info: lab2nios: Generating lab2nios "lab2nios" for QUARTUS_SYNTH
+Error: null

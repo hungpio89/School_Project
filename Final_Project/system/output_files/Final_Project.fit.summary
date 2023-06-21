@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sat May 13 23:53:49 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Final_Project
+Top-level Entity Name : lab2nios
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 1,399 / 41,910 ( 3 % )
+Total registers : 1103
+Total pins : 70 / 499 ( 14 % )
+Total virtual pins : 0
+Total block memory bits : 3,288,064 / 5,662,720 ( 58 % )
+Total RAM Blocks : 405 / 553 ( 73 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 0 / 15 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

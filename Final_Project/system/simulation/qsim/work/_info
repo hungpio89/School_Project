@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/LEARNING/VXL/Final_Project/system/simulation/qsim
+vcodric
+Z0 !s110 1682585422
+!i10b 1
+!s100 Z[RT3zoFaAO^cFXRUV:ZT3
+IAB3G<z_J?kZoF5TZn6ISZ0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/HK222/VXL/Final_Project/system/simulation/qsim
+w1682585421
+Z3 8Final_Project.vo
+Z4 FFinal_Project.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1682585421.000000
+Z7 !s107 Final_Project.vo|
+Z8 !s90 -work|work|Final_Project.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vcodric_vlg_vec_tst
+R0
+!i10b 1
+!s100 ]QIL1RQVOH3X`:8CD:ai]2
+Ikmb_kT@;BIaeNEzS[X3i^2
+R1
+R2
+w1682585420
+8Final_Project_wf.vwf.vt
+FFinal_Project_wf.vwf.vt
+Z11 L0 29
+R6
+r1
+!s85 0
+31
+!s108 1682585422.000000
+!s107 Final_Project_wf.vwf.vt|
+!s90 -work|work|Final_Project_wf.vwf.vt|
+!i113 1
+R9
+R10
+vCordic
+!s110 1683535722
+!i10b 1
+!s100 ^eOF2<iI4RYi8WMERU_3H3
+I8lzigk3aR2SnD9V8JM@143
+R1
+R2
+w1683535722
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z12 !s108 1683535722.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@cordic
+vCordic_vlg_vec_tst
+!s110 1683535723
+!i10b 1
+!s100 80MZ_GQ7dcPZ=?OY8kZO?0
+IIlSIW]HH[DcfT_A:9G8QO3
+R1
+R2
+w1683535721
+8Test_angle.vwf.vt
+FTest_angle.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R12
+!s107 Test_angle.vwf.vt|
+!s90 -work|work|Test_angle.vwf.vt|
+!i113 1
+R9
+R10
+n@cordic_vlg_vec_tst
+vFinal_Project
+Z13 !s110 1683790376
+!i10b 1
+!s100 R>K6O6`@H8=CTTfz198>P2
+IVPb=m^]Eodm<SPPi<VN4D0
+R1
+R2
+w1683790375
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1683790375.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@final_@project
+vFinal_Project_vlg_vec_tst
+R13
+!i10b 1
+!s100 BW[l9N?Nc1813cJ71`J7O0
+I9W7^;gF`nVDCmND`G5>B[1
+R1
+R2
+w1683790374
+8Test_WF_Final_Project.vwf.vt
+FTest_WF_Final_Project.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+!s108 1683790376.000000
+!s107 Test_WF_Final_Project.vwf.vt|
+!s90 -work|work|Test_WF_Final_Project.vwf.vt|
+!i113 1
+R9
+R10
+n@final_@project_vlg_vec_tst
+vwrapper
+Z14 !s110 1683538949
+!i10b 1
+!s100 WH5l@933GolBa9=1QdTHa3
+IzMUcnKl:0fC2R^0feI^^X2
+R1
+R2
+w1683538948
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1683538948.000000
+R7
+R8
+!i113 1
+R9
+R10
+vwrapper_vlg_vec_tst
+R14
+!i10b 1
+!s100 ;?FEdN`jeFQO:5b^<PoF>2
+I=`h:3NL[86M:j3J_eDiE>2
+R1
+R2
+w1683538947
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+!s108 1683538949.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+R10

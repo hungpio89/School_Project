@@ -1,0 +1,38 @@
+module Final_Project
+#(parameter width = 16, parameter angle_bit = 32)
+(
+	input clk,
+	input rst,
+	input start,
+	input [angle_bit-1:0] angle,
+	output [width-1:0] fn,
+	output done
+);
+
+wire control_signal;
+wire [width-1:0] out_mux,fn1,fn2;
+
+mux_nbit u0 
+(
+	.sel(control_signal),
+	.D0(fn1),
+	.D1(fn2),
+	.S(out_mux)
+);
+
+// ----------insert node---------
+Cordic Cal
+(
+	.clock(clk),
+	.angle(angle),
+	.cos(fn1),
+	.sin(fn2)
+);
+always @(posedge clk, posedge reset) begin
+	if(reset) begin
+		fn <= 0;
+	end
+	else
+		fn <= out_mux;
+end
+endmodule
