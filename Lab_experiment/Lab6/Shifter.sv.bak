@@ -1,0 +1,18 @@
+module Shifter
+(
+	input [3:0] smaller_fract,
+	input [2:0] shift_amount,
+	output reg [5:0] shifted_fract
+);
+	reg [4:0] pre_shift;
+	assign pre_shift = {1'b1,smaller_fract};
+	always @(*) begin
+		case(shift_amount)
+			3'b000: shifted_fract = {pre_shift,1'b0};
+			3'b001: shifted_fract = {1'b0,pre_shift};
+			3'b010: shifted_fract = {2'b00,pre_shift[4:1]};
+			3'b011: shifted_fract = {3'b000,pre_shift[4:2]};
+			default: shifted_fract = {6{1'b0}};
+		endcase
+	end
+endmodule

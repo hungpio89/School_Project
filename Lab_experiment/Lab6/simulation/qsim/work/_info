@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/HK222/KTS/LAB6/Lab6/simulation/qsim
+vFPU
+Z1 !s110 1683468070
+!i10b 1
+!s100 o>CJ_lK5WVR;[NC8N0N6d0
+IKUgSjbmceGX5X`DhbO`<g3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1683468069
+Z3 8Lab6.vo
+Z4 FLab6.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1683468070.000000
+Z8 !s107 Lab6.vo|
+Z9 !s90 -work|work|Lab6.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@f@p@u
+vFPU_vlg_vec_tst
+R1
+!i10b 1
+!s100 g[UZ@PWAGXca[?zL<FYYR3
+I[<j_98;24EZC9e<_[g26N0
+R2
+R0
+w1683468068
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@f@p@u_vlg_vec_tst
+vLab6
+Z13 !s110 1683468802
+!i10b 1
+!s100 QkSUCAg6:LYl[FbOeKOFM2
+Ihj?`<<ITL7EIXIVfQJ5YK3
+R2
+R0
+w1683468801
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1683468802.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@lab6
+vLab6_vlg_vec_tst
+R13
+!i10b 1
+!s100 c]?VK?mIHS7WUQNcnoHf^0
+IoTLSzoC<:fWWL>>nFmZf`0
+R2
+R0
+w1683468800
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+n@lab6_vlg_vec_tst
+vNormalize
+Z15 !s110 1683449678
+!i10b 1
+!s100 9Vg];1PiDE[[55DBJ9_eB3
+I7kYMmXW<]5HYMEB13_dzN2
+R2
+R0
+w1683449677
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1683449678.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@normalize
+vNormalize_vlg_vec_tst
+R15
+!i10b 1
+!s100 Ao65gF5E@6NGTFEk63VBM0
+ImV5IC=SZX[F][kS5d:A1Q1
+R2
+R0
+w1683449676
+8WFNormalize.vwf.vt
+FWFNormalize.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 WFNormalize.vwf.vt|
+!s90 -work|work|WFNormalize.vwf.vt|
+!i113 1
+R10
+R11
+n@normalize_vlg_vec_tst
+vShifter
+Z17 !s110 1683449242
+!i10b 1
+!s100 <jYeYekg<FCcjW`Z9<PD`1
+ICdg2_UYeREBnG^]K0laAh0
+R2
+R0
+w1683449242
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1683449242.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@shifter
+vShifter_vlg_vec_tst
+R17
+!i10b 1
+!s100 kbcf^I?DQZgA:3bLQc7VA1
+I56426hFSEzMmIGd:?8_:U2
+R2
+R0
+w1683449241
+8WFshifter.vwf.vt
+FWFshifter.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R18
+!s107 WFshifter.vwf.vt|
+!s90 -work|work|WFshifter.vwf.vt|
+!i113 1
+R10
+R11
+n@shifter_vlg_vec_tst

@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at dec3to8.sv(7): always construct contains both blocking and non-blocking assignments File: E:/HK222/KTS/LAB6/Lab6/dec3to8.sv Line: 7
+Warning (10268): Verilog HDL information at FPU.sv(34): always construct contains both blocking and non-blocking assignments File: E:/HK222/KTS/LAB6/Lab6/FPU.sv Line: 34
+Warning (10268): Verilog HDL information at FPU.sv(75): always construct contains both blocking and non-blocking assignments File: E:/HK222/KTS/LAB6/Lab6/FPU.sv Line: 75
